@@ -147,6 +147,12 @@ header a:hover {
     background-size: cover;
 }
 
+.subjects-text {
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    padding: 20px;
+    max-width: 60%;
+}
+
 #subjects ul {
     list-style-type: none;
     margin-left: 30px;
@@ -171,6 +177,7 @@ header a:hover {
 #pricing .pricing-text {
     background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
     padding: 20px;
+    max-width: 60%;
 }
 
 #contact {
@@ -179,7 +186,11 @@ header a:hover {
     background: url('Images/Jesus_College_First_Court.jpg') no-repeat right;
     background-size: cover;
 }
-
+.contact-text {
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    padding: 20px;
+    max-width: 60%;
+}
 .contact-info {
     float: left;
     width: 50%;
