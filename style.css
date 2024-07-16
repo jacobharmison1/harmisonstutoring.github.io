@@ -210,6 +210,27 @@ header a:hover {
     margin-right: 30px;
 }
 
+/* Add this CSS to your style.css file */
+
+/* Background image for the contact page */
+body.contact-page {
+    background-image: url('Images/contact-background.jpg'); /* Replace with the actual path to your image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Semi-transparent box for contact information */
+.contact-info-box {
+    background: rgba(255, 255, 255, 0.8); /* White background with 80% opacity */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
 footer {
     background: #333;
     color: #fff;
