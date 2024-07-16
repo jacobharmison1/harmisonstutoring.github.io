@@ -69,11 +69,27 @@ header a:hover {
 }
 
 #hero {
+    position: relative;
     background: url('Images/Scenic_Cambridge_Court.jpg') no-repeat center center/cover;
     color: #fff;
     text-align: center;
     padding: 50px;
     margin-bottom: 30px;
+}
+
+#hero .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    padding: 20px;
+    max-width: 80%;
+    text-align: center;
+}
+
+#hero h2 {
+    margin-bottom: 20px;
 }
 
 #services {
@@ -101,9 +117,15 @@ header a:hover {
 }
 
 #about {
+    position: relative;
     padding: 50px;
     background: url('Images/Classic_Cambridge_Street.jpg') no-repeat right;
     background-size: cover;
+}
+
+#about .about-content {
+    position: relative;
+    overflow: hidden;
 }
 
 .about-img {
@@ -116,7 +138,14 @@ header a:hover {
     overflow: hidden;
 }
 
+#about .about-text {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    max-width: 60%;
+}
+
 #subjects {
+    position: relative;
     padding: 50px;
     background: url('Images/Botanic_Greenhouse.jpg') no-repeat right;
     background-size: cover;
@@ -132,6 +161,7 @@ header a:hover {
 }
 
 #contact {
+    position: relative;
     padding: 50px;
     background: url('Images/Jesus_College_First_Court.jpg') no-repeat right;
     background-size: cover;
