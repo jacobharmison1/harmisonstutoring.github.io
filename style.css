@@ -135,10 +135,6 @@ header a:hover {
 }
 
 .about-text {
-    overflow: hidden;
-}
-
-#about .about-text {
     background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
     padding: 20px;
     max-width: 60%;
@@ -158,6 +154,18 @@ header a:hover {
 
 #subjects h2 {
     margin-bottom: 20px;
+}
+
+#pricing {
+    position: relative;
+    background: url('Images/Sunset.jpg') no-repeat right;
+    background-size: cover;
+    padding: 50px;
+}
+
+#pricing .container {
+    position: relative;
+    z-index: 1;
 }
 
 #contact {
