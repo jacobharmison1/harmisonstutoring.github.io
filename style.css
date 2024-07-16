@@ -18,7 +18,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #001f3f; /* Navy background */
     color: #fff;
     padding: 10px 0;
 }
@@ -80,6 +80,10 @@ header nav ul li a {
     background-color: #ddd;
 }
 
+#services {
+    padding: 40px 0;
+}
+
 #about {
     padding: 40px 0;
 }
@@ -112,8 +116,12 @@ header nav ul li a {
     margin-bottom: 10px;
 }
 
-ul {
-    list-style-type: none;
+#subjects {
+    padding: 40px 0;
+}
+
+#prices {
+    padding: 40px 0;
 }
 
 footer {
@@ -121,8 +129,6 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    position: absolute;
-    bottom: 0;
     width: 100%;
 }
 
