@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - Harmison's Tutoring</title>
+    <title>Contact - Harmison's Tutoring</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -24,15 +24,22 @@
 
     <section id="contact">
         <div class="container">
-            <h2>Get In Touch</h2>
-            <p>For inquiries and bookings, please fill out the form below or contact us directly.</p>
-            
-            <!-- Add your contact form HTML here -->
-            
+            <h2>Contact Information</h2>
             <div class="contact-info">
-                <p>Email: jacobharmison17@hotmail.com</p>
+                <p>Email (preferred): jacobharmison17@hotmail.com</p>
                 <p>Phone: 07427833249</p>
-                <p>Location: Carlisle, UK</p>
+            </div>
+            <div>
+                <h2>Contact Form</h2>
+                <form action="#" method="post">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" required></textarea><br>
+                    <input type="submit" value="Submit">
+                </form>
             </div>
         </div>
     </section>
