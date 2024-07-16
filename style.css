@@ -82,7 +82,7 @@ header a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
     padding: 20px;
     max-width: 80%;
     text-align: center;
@@ -135,7 +135,7 @@ header a:hover {
 }
 
 .about-text {
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
     padding: 20px;
     max-width: 60%;
 }
@@ -166,6 +166,11 @@ header a:hover {
 #pricing .container {
     position: relative;
     z-index: 1;
+}
+
+#pricing .pricing-text {
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background */
+    padding: 20px;
 }
 
 #contact {
